@@ -45,12 +45,11 @@ body {
 .heading {
     padding: 160px 50px !important;
     color: #fff !important;
-    /*
-    background-image: url("../../background.png") !important;
+    background-image: url("https://static2.lolwallpapers.net/2016/09/57d3f2b5228d5.jpg") !important;
     background-position: bottom !important;
-    background-size: 200% !important;
+    background-size: 100% !important;
     background-repeat: no-repeat !important;
-    */
+ 
 }
 
 .bot-avatar{
@@ -60,14 +59,14 @@ body {
 }
 
 .title {
-    color: rgb(0, 204, 255) !important;
+    color: rgb(255, 102, 0) !important;
     line-height: 90px !important;
     margin-bottom: -2px !important;
     font-size: 36px !important
 }
 
 .subtitle {
-    color: rgb(255, 254, 177) !important;
+    color: rgb(71, 12, 12) !important;
     font-size: 16px !important;
 }
 
