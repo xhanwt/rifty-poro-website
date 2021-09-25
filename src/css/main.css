@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif !important;
-    background-color: #23272A;
+    background-color: #ffffff;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ body {
 }
 
 .btn-primary {
-    background-color: #7289DA !important
+    background-color: #34a4ff !important
 }
 .btn-secondary {
     background-color: #2C2F33 !important
@@ -45,9 +45,9 @@ body {
 .heading {
     padding: 160px 50px !important;
     color: #fff !important;
-    background-image: url("https://static2.lolwallpapers.net/2016/09/57d3f2b5228d5.jpg") !important;
+    background-image: url("../../background.png") !important;
     background-position: bottom !important;
-    /*background-size: 100% !important; */
+    background-size: 100% !important; 
     background-repeat: no-repeat !important;
  
 }
@@ -59,21 +59,21 @@ body {
 }
 
 .title {
-    color: rgb(255, 102, 0) !important;
+    color: #34a4ff !important;
     line-height: 90px !important;
     margin-bottom: -2px !important;
     font-size: 36px !important
 }
 
 .subtitle {
-    color: rgb(0, 204, 255) !important;
+    color: rgb(255, 255, 255) !important;
     font-size: 16px !important;
 }
 
 .features {
     border-radius: 50px !important;
     text-align: center !important;
-    background: #7289DA !important;
+    background: #34a4ff !important;
     padding: 60px 50px !important
 }
 .features .title {
@@ -84,7 +84,7 @@ body {
 
 .features .subtitle {
     font-size: 20px !important;
-    color: #a2a8bd;
+    color: #400372;
 }
 
 .cards {
@@ -109,6 +109,7 @@ body {
 }
 
 .statistics {
+    border-radius: 50px !important;
     background-color: #23272A !important;
     text-align: center !important;
     padding: 20px 20px !important;
@@ -126,9 +127,10 @@ body {
 }
 
 .card.statistic {
+    border-radius: 50px !important;
     background: transparent !important;
     box-shadow: none !important;
-    color: #f7f7f7 !important;
+    color: #000000 !important;
 }
 
 .start {
