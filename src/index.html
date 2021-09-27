@@ -2,44 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/now-ui-kit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
     <title>Rifty Poro</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg nav-bar-fixed-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-            <img class=bot-avatar alt="Rifty Poro" class="bot-image" src="https://cdn.discordapp.com/avatars/888249861605048350/ba30764144c868e87d7fb8dbbb11f28b.png?size=128" onerror="web.handleImageError(this)">
-            </li><br>
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <br>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Documentation
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#commands">Commands</a>
-                    <a class="dropdown-item" href="#patchnotes">Patch Notes(NA)</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="https://discord.gg/sHmQppKsXB">Support</a>
-                </div>
-            </li>
-        </ul>
+  <nav>
+    <div class="logo">
+        <img src="favicon.ico" alt="Logo Image">
     </div>
+    <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <ul class="nav-links">
+        <li><a data-scroll href="#home">Home</a></li>
+        <li><a data-scroll href="#">Feed</a></li>
+        <li><a data-scroll href="#commands">Commands</a></li>
+        <li><a data-scroll href="#">Content Providers</a></li>
+        <li><a data-scroll href="#">Contact</a></li>
+        <li><button class="login-button" href="#">INVITE</button></li>
+    </ul>
 </nav>
-<div class="heading text-center">
+
+
+<div class="heading text-center" id="home">
     <h1 class="display-5 title">Rifty Poro</h1>
     <p class="subtitle">A LOL:Wild Rift Discord Bot.</p>
     <a class="btn btn-primary btn-lg" href="https://discord.com/oauth2/authorize?client_id=888249861605048350&permissions=2147806288&&scope=bot%20applications.commands&redirect_url=riftyporo.vercel.app" role="button">Add Poro</a>
