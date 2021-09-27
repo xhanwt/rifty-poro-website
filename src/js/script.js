@@ -9,8 +9,12 @@ hamburger.addEventListener('click', ()=>{
     hamburger.classList.toggle("toggle");
 });
 
-$(function () {
-    $('.nav-links li a').bind('click touchstart', function () {
-            $('.hamburger').click();
-    });
+
+$('nav').find('a').click(function(){
+    var $href = $(this).attr('href');
+    var $anchor = $($href).offset();
+    window.scrollTo({left: $anchor.left,top: $anchor.top, behavior: 'smooth'});
+    $('.hamburger').click();
+    return false;
+   
 });
